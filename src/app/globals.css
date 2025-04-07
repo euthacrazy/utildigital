@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light mode variables */
+  --primary-color: #2A5CFF;
+  --secondary-color: #F5F7FA;
+  --text-color: #333333;
+  --background-color: #FFFFFF;
+  --card-background: #FFFFFF;
+  --border-color: #E5E7EB;
+}
+
+.dark {
+  /* Dark mode variables - usando a cor azul escuro solicitada */
+  --primary-color: #0F2C8B;
+  --secondary-color: #1e293b;
+  --text-color: #FFFFFF;
+  --background-color: #0F2C8B;
+  --card-background: #0F2C8B;
+  --border-color: #1e293b;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
