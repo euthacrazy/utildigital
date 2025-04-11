@@ -49,6 +49,10 @@ npm start
 
 - `src/app`: Páginas e rotas da aplicação
 - `src/components`: Componentes reutilizáveis
+  - `header/`: Componentes do cabeçalho (TopBar, MainHeader, NavigationBar)
+  - `home/`: Componentes da página inicial
+  - `auth/`: Componentes de autenticação
+  - `ui/`: Componentes de interface do usuário
 - `src/context`: Contextos React para gerenciamento de estado
 - `src/lib`: Utilitários e funções auxiliares
 
